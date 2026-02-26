@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+*.pyc
 
 # C extensions
 *.so
@@ -102,3 +103,26 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# SLURM logs
+logs/
+*.out
+*.err
+
+# Data folders
+data/
+datasets/
+outputs/
+
+# Models
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Neuroimaging
+*.nii
+*.nii.gz
+
+# OS
+.DS_Store
