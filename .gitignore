@@ -29,3 +29,5 @@ temp/
 
 data/functionals/
 logs/
+*.pkl
+correlations_file*.pkl
